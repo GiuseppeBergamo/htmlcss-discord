@@ -15,29 +15,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 header{
     min-height: 200px;
     background-color: #3161e0;
+    
 }
 
 footer{
     min-height: 200px;
     background-color: #23272a;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
 /* Utils */
 
-.flex-container{
-    display: flex;
-    justify-content: center;
-    min-height: 650px;
-    align-items: center;
-}
 
 .container{
     min-height: 300px;
-
+    
 }
 
 .gray{
@@ -45,17 +47,102 @@ footer{
 }
 /* Header */
 
-header section:first-child{
+header #navbar{
     min-height: 50px;
-    background-color:#364d8e;
+    background-color: #3161e0;
+    padding: 0 150px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    
+    
 }
 
-header section:last-child{
-    min-height: 300px;
-    width: 600px;
-    background-color:#e177a8;
-    display: flex;
+#navbar > div{
+    padding: 10px;
+}
 
+section .logo-cont{
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+section .nav-links{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .login{
+    width: 25%;
+    text-align: right;
+
+}
+
+.login button{
+    width: 75px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    color: #3c4043;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.text-container{
+    display: flex;
+    justify-content: center;
+    min-height: 450px;
+    align-items: center;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.text-container .textcontent{
+    min-height: 300px;
+    max-width: 800px;
+    
+}
+
+.textcontent{
+    color: white;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+.textcontent h1{
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.textcontent p{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.textcontent button{
+    min-width: 250px;
+    font-size: 24px;
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+
+.buttonwhite{
+    border: 1px solid white;
+    color: #3c4043;
+    margin-right: 25px;
+
+}
+
+.buttongray{
+    border: 1px solid #23272a;
+    color: white;
+    background-color: #23272a;
 }
 
 /* main */
