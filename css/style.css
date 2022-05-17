@@ -20,7 +20,6 @@
 
 header{
     min-height: 200px;
-    background-color: #3161e0;
     
 }
 
@@ -36,11 +35,6 @@ a{
 }
 /* Utils */
 
-
-.container{
-    min-height: 300px;
-    
-}
 
 .gray{
     background-color: #f6f6f6;
@@ -139,6 +133,10 @@ section .login{
 
 }
 
+.fa-arrow-down{
+    margin-right: 10px;
+}
+
 .buttongray{
     border: 1px solid #23272a;
     color: white;
@@ -149,20 +147,34 @@ section .login{
 .flex-section{
     display: flex;
     padding: 150px 200px;
-    justify-content: space-between;
     align-items: flex-start;
 
 }
 
 .img{
-    min-width: 400px;
+    max-width: 60%;
     min-height: 400px;
-    background-color: #292841;
+    padding-right: 0 20px;
 }
+
+.img img{
+    max-width: 100%;
+}
+
 section aside{
-    min-width: 400px;
+    max-width: 40%;
     min-height: 600px;
-    background-color: #292841;
+    padding: 30px 80px;
+    color: #23272a;
+}
+
+aside h1{
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
+aside p{
+    font-size: 22px;
 }
 
 .flex-sectionbig{
