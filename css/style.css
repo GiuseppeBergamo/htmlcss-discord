@@ -188,15 +188,30 @@ aside p{
 }
 
 .bigimg{
-    min-width: 900px;
+    max-width: 80%;
     min-height: 400px;
-    background-color: #292841;
+}
+
+.bigimg img{
+    width: 100%;
+
 }
 
 .testo{
-    min-width: 500px;
+    max-width: 80%;
     min-height: 100px;
-    background-color: #292841;
+    color: #23272a;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testo h1{
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
+.testo p{
+    font-size: 22px;
 }
 
 /* footer */
